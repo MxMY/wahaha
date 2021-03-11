@@ -1,0 +1,134 @@
+body,
+div,
+ul,
+li,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+span,
+textarea,
+select,
+p,
+dl,
+dt,
+dd,
+a,
+img,
+button,
+form,
+table,
+th,
+tr,
+td,
+tbody,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  font-size: 14px;
+  font-family: 'Microsoft Yahei', 'courier New';
+  color: #333;
+}
+ul,
+ol {
+  list-style: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: #333;
+}
+input {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.show {
+  display: block!important;
+}
+.hide {
+  display: none!important;
+}
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+  line-height: 0;
+  height: 0;
+  visibility: hidden;
+}
+.jd-sprite {
+  background: url(../images/jd-sprites.png) no-repeat;
+  background-size: 200px 200px;
+}
+body {
+  background-color: #ccc;
+}
+.layout {
+  /* height: 1800px; */
+  max-width: 640px;
+  min-width: 320px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.header {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 44px;
+  background-image: linear-gradient(#eee, #bbb);
+  padding: 0 44px;
+}
+.header form {
+  width: 100%;
+  height: 100%;
+  padding-top: 7px;
+}
+.header form input {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.header .back,
+.header .menu {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 44px;
+  height: 44px;
+  padding: 11px;
+  background-position: -21px 0;
+  background-origin: content-box;
+  background-clip: content-box;
+}
+.header .menu {
+  left: auto;
+  right: 0;
+  background-position: -60px 0;
+}
